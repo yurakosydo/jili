@@ -1,0 +1,43 @@
+.bg{
+    background-color:#BD5D38;
+	position:fixed;
+    left:0;
+    width:18.5rem;
+    height:100vh;
+}
+.container-fluid{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+     padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 84rem;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.fa-ul{
+	color:gray;
+}
+.f-n{
+    font-size:70px;
+}
+@media (max-width: 767.98px) {
+    .bg{
+    background-color:#BD5D38;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:auto;
+}
+img{
+    display:none;
+}
+}
